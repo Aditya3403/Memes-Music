@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    background: radial-gradient(circle at 30% 90%, #fed373 5%, #f15245 30%, #d92e7f 50%, #872ea0 90%) no-repeat; 
+    height: 100vh;
+    font-family: 'Roboto', 'sans-serif';
+}
+.outerbox{
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+.big{
+    height: 19vh;
+    width: 9vw;
+    /* padding: 2vh; */
+    /* gap: 4vw; */
+    background:url(meme.gif);
+    border:1vh solid rgb(96, 96, 173);
+    border-radius:2vh;
+    background-size: cover;
+    
+}
+.secondline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 3vh;
+    margin-left: 9vw;
+    
+}
+.box1,.box2{
+    height: 14vh;
+    width: 7vw;
+    border:1vh solid rgb(96, 96, 173);
+    border-radius: 2vh;
+    
+    background: url(meme2.gif);
+    background-size: cover;
+}
+.box3,.box4{
+    height: 14vh;
+    width: 7vw;
+    border:1vh solid rgb(96, 96, 173);
+    border-radius: 2vh;
+    
+    background: url(meme4.gif);
+    background-size: cover;
+}
+.box5,.box6{
+    height: 14vh;
+    width: 7vw;
+    border:1vh solid rgb(96, 96, 173);
+    border-radius: 2vh;
+    
+    background: url(meme5.gif);
+    background-size: cover;
+}
+.box7{
+    height: 14vh;
+    width: 7vw;
+    border:1vh solid rgb(96, 96, 173);
+    border-radius: 2vh;
+    
+    background: url(meme3.gif);
+    background-size: cover;
+}
+.thirdline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5vw;
+    margin-top: 4vh;
+    margin-left: 13vw;
+}
+.thirdline h1{
+    margin-top: 1vh;
+    color: red;
+    font-size: 6vh;
+}
+.small{
+    height: 10vh;
+    width: 5vw;
+    border: 1vh solid rgb(96, 96, 173);
+    border-radius: 1vh;
+    /* gap: 1vw; */
+    background-color: white;
+    background-size: cover;
+}
+.lastline{
+    margin-top: 3vh;
+    width: 27vw;
+    height: 26vh;
+    border: 1vh solid rgb(86, 86, 194);
+    border-radius: 2vh;
+    background: url(meme11.gif);
+    margin-left: 36vw;
+    background-size: cover;
+}
+img{
+    height: 21vh;
+    width: 10.5vw;
+    border: 2vh solid rgb(86, 86, 194);
+    border-radius: 2vh ;
+    
+}
+.secondline img{
+    height: 14vh;
+    width: 7vw;
+}
+
+.outerbox h2{
+    font-size: 7vh;
+    margin-left: 45vw;
+    /* letter-spacing: 0.5vw; */
+    color: white;
+    font-family: 'Righteous', cursive;
+    
+}
